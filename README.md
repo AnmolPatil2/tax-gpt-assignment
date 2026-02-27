@@ -2,7 +2,7 @@
 
 A RAG-powered chatbot that answers financial and tax questions using **hybrid vector + graph retrieval** across structured tax data, IRS form instructions, and the Internal Revenue Code.
 
-**Author**: Anmol Patil | [LinkedIn](https://www.linkedin.com/in/anmol-patil/)
+**Author**: Anmol Patil | [LinkedIn](https://www.linkedin.com/in/anmol-patil-96a478194/) 
 
 ---
 
