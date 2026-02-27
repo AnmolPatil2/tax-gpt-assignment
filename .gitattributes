@@ -1,0 +1,4 @@
+# Git LFS — large ChromaDB embedding files
+backend/chroma_data/**/*.bin filter=lfs diff=lfs merge=lfs -text
+backend/chroma_data/**/*.sqlite3 filter=lfs diff=lfs merge=lfs -text
+backend/chroma_data/**/*.pickle filter=lfs diff=lfs merge=lfs -text

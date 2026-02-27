@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+
+.env
+*.env.local
+
+node_modules/
+frontend/dist/
+
+.DS_Store
+*.log
+.idea/
+.vscode/
+
+# backend/chroma_data/ is intentionally tracked via Git LFS —
+# contains pre-built embeddings so reviewers don't need to
+# call OpenAI's embedding API (~$0.50 cost to regenerate).

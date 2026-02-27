@@ -1,0 +1,107 @@
+[
+  {
+    "id": "structured_01",
+    "category": "structured",
+    "question": "What is the total tax owed by partnerships in NY for 2022?",
+    "expected_keywords": ["partnership", "NY", "2022", "tax owed"],
+    "expected_source": "csv"
+  },
+  {
+    "id": "structured_02",
+    "category": "structured",
+    "question": "What is the average tax rate for corporations in California?",
+    "expected_keywords": ["corporation", "CA", "average", "tax rate"],
+    "expected_source": "csv"
+  },
+  {
+    "id": "structured_03",
+    "category": "structured",
+    "question": "Which state has the highest total income for individual taxpayers?",
+    "expected_keywords": ["state", "highest", "income", "individual"],
+    "expected_source": "csv"
+  },
+  {
+    "id": "structured_04",
+    "category": "structured",
+    "question": "How many trust transactions are there in the dataset?",
+    "expected_keywords": ["trust", "count", "transaction"],
+    "expected_source": "csv"
+  },
+  {
+    "id": "structured_05",
+    "category": "structured",
+    "question": "What is the average deduction amount for mortgage interest across all taxpayer types?",
+    "expected_keywords": ["mortgage interest", "average", "deduction"],
+    "expected_source": "csv"
+  },
+  {
+    "id": "semantic_01",
+    "category": "semantic",
+    "question": "What is the standard deduction amount for 2023?",
+    "expected_keywords": ["standard deduction", "2023", "$"],
+    "expected_source": "pdf"
+  },
+  {
+    "id": "semantic_02",
+    "category": "semantic",
+    "question": "How do I determine my filing status?",
+    "expected_keywords": ["filing status", "single", "married", "head of household"],
+    "expected_source": "pdf"
+  },
+  {
+    "id": "semantic_03",
+    "category": "semantic",
+    "question": "What are the requirements for claiming a dependent?",
+    "expected_keywords": ["dependent", "qualifying", "child", "relative"],
+    "expected_source": "pdf"
+  },
+  {
+    "id": "semantic_04",
+    "category": "semantic",
+    "question": "What does Section 61 of the Internal Revenue Code define?",
+    "expected_keywords": ["gross income", "section 61", "income"],
+    "expected_source": "pdf"
+  },
+  {
+    "id": "semantic_05",
+    "category": "semantic",
+    "question": "What income is reported on Schedule 1?",
+    "expected_keywords": ["schedule 1", "additional income", "adjustments"],
+    "expected_source": "pdf"
+  },
+  {
+    "id": "hybrid_01",
+    "category": "hybrid",
+    "question": "What deductions do individuals in California typically claim and how do these deductions work under IRS rules?",
+    "expected_keywords": ["individual", "CA", "deduction", "IRS"],
+    "expected_source": "both"
+  },
+  {
+    "id": "hybrid_02",
+    "category": "hybrid",
+    "question": "How do charitable contribution deductions work and what is their average amount in the dataset?",
+    "expected_keywords": ["charitable", "deduction", "average", "amount"],
+    "expected_source": "both"
+  },
+  {
+    "id": "hybrid_03",
+    "category": "hybrid",
+    "question": "What are the most common income sources for partnerships and how are they taxed?",
+    "expected_keywords": ["partnership", "income source", "tax"],
+    "expected_source": "both"
+  },
+  {
+    "id": "edge_01",
+    "category": "edge",
+    "question": "What is the weather today?",
+    "expected_keywords": ["not", "available", "outside", "scope"],
+    "expected_source": "none"
+  },
+  {
+    "id": "edge_02",
+    "category": "edge",
+    "question": "Compare the tax rates between 2019 and 2023 for non-profit organizations in Georgia",
+    "expected_keywords": ["non-profit", "GA", "2019", "2023", "tax rate"],
+    "expected_source": "csv"
+  }
+]
